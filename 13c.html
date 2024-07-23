@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #contact {
+      text-align: center;
+      color:darkred ;
+      font-size: 40px;
+      font-family: fantasy;
+
+    }
+    label {
+      font-size: 30px;
+      font-family: cursive;
+      display: block;
+      margin-top: 20px;
+    }
+    #input {
+      font-size: 50px;
+      font-family: cursive;
+      border:10px solid rgb(119, 14, 14);
+      width: 800px;
+      padding-left: 400px;
+      padding-right: 90px;
+      padding-top: 20px;
+      padding-bottom: 70px;
+      margin: 90px;
+      border-radius: 200px;
+      background-color: lightpink;
+    }
+   .img  {
+    margin-left:200px;
+     width: 200px;
+     height: 200px;
+    }
+    body {
+      background-color: lightcoral
+    }
+    .container{
+      display:flex;
+      align-items: center;
+    }
+    .container input {
+      margin-bottom: 150px;
+    }
+    
+    
+  </style>
+</head>
+<body>
+  <header id="contact">
+    <h1><i>
+      Contact Us ☎️
+      </i>
+    </h1>
+  </header>
+  <main id="input">
+    
+    <form action="http://127.0.0.1:5500/13c.html" method="post">
+     
+      <label for="name"><u>Name</u></label>
+    <div class="container">
+    <div><input type="text" id="name" placeholder="Name" required></div>
+    <div><img src= "https://cdn-icons-png.flaticon.com/512/6969/6969341.png" class="img"/></div>
+    </div>
+    
+    <label for="no."><u>Phone No.</u></label>
+    <input type="phone number" id="no." placeholder="Phone No." required><br><br>
+    <label for="What Can We Help You With?"><u>What Can We Help You With?</u></label><br>
+    <textarea id="What Can We Help You With?" rows="5" cols="50" required>
+      
+    </textarea><br><br>
+    <input type="Submit" value="Submit">
+    </form>
+    
+  </main>
+  
+</body>
+</html>
